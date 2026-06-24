@@ -11,7 +11,7 @@ interface HeroCanvasProps {
 
 export function HeroCanvas({ C }: HeroCanvasProps) {
   return (
-    <div className="absolute inset-0 lg:left-[40%] lg:w-[60%] h-full z-0 pointer-events-none lg:pointer-events-auto">
+    <div className="absolute hidden lg:block inset-0 lg:left-[40%] lg:w-[60%] h-full z-0 pointer-events-none lg:pointer-events-auto">
       <Canvas camera={{ position: [0, 0, 8], fov: 45 }}>
         <ambientLight intensity={0.4} />
         <directionalLight position={[5, 10, 5]} intensity={1.5} />

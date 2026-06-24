@@ -88,7 +88,7 @@ export function HeroContent({
           variants={item}
           className="font-black leading-[1.1] mb-3 drop-shadow-[0_10px_15px_rgba(0,0,0,0.8)]"
           style={{
-            fontSize: "clamp(2.5rem, 7vw, 6.5rem)",
+            fontSize: "clamp(3rem, 7vw, 6.5rem)",
             letterSpacing: "-0.04em",
             color: C.white,
           }}
